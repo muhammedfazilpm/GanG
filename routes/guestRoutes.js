@@ -11,6 +11,9 @@ guestroutes.post("/reset",guestController.resetPassword)
 guestroutes.post("/resetotp",guestController.resetOtp)
 guestroutes.post("/getlocation",guestController.getlocations)
 guestroutes.post("/order",authMiddlewareguest,guestController.postOrder)
+guestroutes.post("/sendDetails",guestController.saveDetails)
+guestroutes.post("/bookorder",authMiddlewareguest,guestController.bookDeal)
+
 
 
 module.exports=guestroutes

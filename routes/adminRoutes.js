@@ -11,5 +11,6 @@ adminroutes.post('/getlocation',adminController.getLocation)
 adminroutes.get('/getGuide',adminController.getGuide)
 adminroutes.post('/getdetails',adminController.guideDetails)
 adminroutes.post('/verifyguide',adminController.changeStatus)
+adminroutes.post('/editlocation',adminController.editLocation)
 
 module.exports=adminroutes
